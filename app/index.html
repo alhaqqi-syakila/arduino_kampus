@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMART LOCK</title>
+    <script src='https://kit.fontawesome.com/7f1688b379.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-k3oNhPXT1Yr3y3xkkYvJxjKXVxVgTJ1FFJxJiYwI/s" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">TRKJ A1</div>
+            <div class="list">
+                <a href="#">home</a>
+                <a href="#">setting</a>
+                <a href="#">devices</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- container status -->
+        <section class="status-container">
+            <div class="stat-text">
+                <p class="stat-title">Device Status</p>
+                <h3 class="status-condition"></h3>
+            </div>
+            <div class="stat-icon">
+                <i class="icon-lock fa fa-lock" aria-hidden="true"></i>
+            </div>
+        </section>
+
+        <!-- kolom pencarian device -->
+        
+        <h3 class="title">find device</h3>
+        <form action="" method="post">
+            <input type="text" placeholder="Input device name..." name="search">
+            <!-- <button type="submit">cari</button> -->
+        </form>
+        <article>
+            <section class="log-activity">
+                <h3 class="title">log</h3>
+                <div class="box-container">
+                    <div id="log-container"></div>
+                </div>
+            </section>
+    
+            <!-- konten lainnya -->
+            <section class="device">
+                <h3 class="title">Device</h3>
+                <div class="device-container">
+                    <div class="device-item">device 1</div>
+                    <div class="device-item">device 2</div>
+                    <div class="device-item">device 3</div>
+                    <div class="device-item">device 4</div>
+                </div>
+            </section>
+        </article>
+        <!-- log aktivitas -->
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="/app/js/main.js"></script>
+</body>
+</html>

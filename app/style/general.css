@@ -1,0 +1,25 @@
+@media  screen and (min-width:1080px) {
+    body {
+        display: flex;
+        flex-direction: column; 
+        margin: 0 15rem;
+    }
+
+    article {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .log-activity {
+        width: 40%;
+    }
+
+    .device {
+        width: 60%;
+    }
+
+    .box-container {
+        height: 330px;
+    }
+
+}
